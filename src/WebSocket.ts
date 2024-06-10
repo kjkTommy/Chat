@@ -15,7 +15,7 @@ export const webSocket: SOCKET = {
             const liContainer = elementUi.template.templateContainer.content.cloneNode(true);
             elementUi.mainBlockElements.ulList.appendChild(liContainer);
         };
-        socket.onclose = (CloseEvent) => {
+        socket.onclose = () => {
             this.RECONNECT();
         };
         this.socket = socket;
