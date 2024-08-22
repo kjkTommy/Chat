@@ -1,7 +1,7 @@
 import { getToken } from './cookie';
 import { templateMessage } from './templateFunction';
+import { SOCKET } from './types';
 import { elementUi } from './UI_element';
-
 const token = getToken();
 
 export const webSocket: SOCKET = {

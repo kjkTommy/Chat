@@ -1,71 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Messenger</title>
-      <script type="module" crossorigin src="/assets/index-DQv45y6m.js"></script>
-      <link rel="stylesheet" crossorigin href="/assets/index-5cjI2oNQ.css">
-    </head>
-    <body>
-        <div class="popup__reg">
-            <div class="popup__reg__box">
-                <div class="block__registration">
-                    <h2 class="title__reg__box">Авторизация</h2>
-                    <p class="mail__reg__box">Почта:</p>
-                    <form action="" class="form__reg__box">
-                        <input type="text" class="input__reg__box" required />
-                        <button id="getCode__reg__box">Получить код</button>
-                    </form>
-                    <button id="sendCode__reg__box">Ввести код</button>
-                </div>
-                <div class="block__cod__confirm">
-                    <h2 class="Confirm__h2">Подтверждение</h2>
-                    <p class="Confirm__p">Код:</p>
-                    <form action="" class="Confirm__form">
-                        <input type="text" class="Confirm__input" required />
-                        <button id="Confirm__button">Войти</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="settings__block">
-                <button class="settings" id="settings__button">Настройки</button>
-                <button class="exit">Выход</button>
-            </div>
-
-            <div class="modal">
-                <div class="modal__box">
-                    <span class="header__popup"
-                        ><h2>Настройки</h2>
-                        <button class="close__popup" id="close__button">
-                            <img src="data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_2689)'%3e%3cpath%20d='M38%2012.83L35.17%2010L24%2021.17L12.83%2010L10%2012.83L21.17%2024L10%2035.17L12.83%2038L24%2026.83L35.17%2038L38%2035.17L26.83%2024L38%2012.83Z'%20fill='%23FF0000'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_2689'%3e%3crect%20width='48'%20height='48'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="" /></button
-                    ></span>
-
-                    <p class="name__paragraph">Имя в чате</p>
-                    <form action="" class="choose__name">
-                        <input type="text" class="name" required />
-                        <button class="applyName__button">
-                            <img src="data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_202)'%3e%3cpath%20d='M18%2032.34L9.65999%2024L6.82999%2026.83L18%2038L42%2014L39.17%2011.17L18%2032.34Z'%20fill='%2300E440'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_202'%3e%3crect%20width='48'%20height='48'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="" />
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div class="main__block">
-                <ul></ul>
-                <template id="template__container">
-                    <li><b></b><span></span></li>
-                </template>
-            </div>
-            <button class="push__scroll__down"><img src="data:image/svg+xml,%3csvg%20width='18'%20height='9'%20viewBox='0%200%2018%209'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.00002%208.79989C8.30002%208.79989%207.60002%208.52989%207.07002%207.99989L0.55002%201.47989C0.26002%201.18989%200.26002%200.709893%200.55002%200.419893C0.84002%200.129893%201.32002%200.129893%201.61002%200.419893L8.13002%206.93989C8.61002%207.41989%209.39002%207.41989%209.87002%206.93989L16.39%200.419893C16.68%200.129893%2017.16%200.129893%2017.45%200.419893C17.74%200.709893%2017.74%201.18989%2017.45%201.47989L10.93%207.99989C10.4%208.52989%209.70002%208.79989%209.00002%208.79989Z'%20fill='white'/%3e%3c/svg%3e" alt="" class="down__arrow" /></button>
-            <div class="footer__block">
-                <form action="" id="send__message__form">
-                    <input type="text" name="" class="send__message__input" />
-                    <button class="button__send"></button>
-                </form>
-            </div>
-            <p class="warn">Сообщение не должно быть пустым!</p>
-        </div>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <script type="module" crossorigin src="/assets/index-Bd-pKGJy.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cz4zGhbH.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
 </html>

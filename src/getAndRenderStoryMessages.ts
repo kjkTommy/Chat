@@ -2,6 +2,7 @@ import { elementUi } from './UI_element';
 import { setMessageInLocalStorage } from './localStorage';
 import { getMessageStory } from './request';
 import { templateMessage } from './templateFunction';
+import { infoAboutMessage } from './types';
 
 let storyMessage: infoAboutMessage[] = [];
 

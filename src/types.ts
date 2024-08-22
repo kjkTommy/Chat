@@ -1,4 +1,4 @@
-interface SOCKET {
+export interface SOCKET {
     socket: WebSocket | '';
     INIT_CONNECTION(): void;
     SEND_MESSAGE(message: string): void;
@@ -8,7 +8,7 @@ interface SOCKET {
 interface user {
     name: string;
 }
-interface infoAboutMessage {
+export interface infoAboutMessage {
     text: string;
     user: user;
     createdAt: string;
